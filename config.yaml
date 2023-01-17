@@ -2,17 +2,17 @@ baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: JackyPro
 
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: JackyPro
         weight: 1
     zh-cn:
         languageName: 中文
-        title: 演示站点
-        weight: 2
+        title: JackyPro
+        weight: 1
     ar:
         languageName: عربي
         languagedirection: rtl
@@ -54,11 +54,14 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 
+                "準菜鳥工程師"
+
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            #src: img/avatar.png
+            src: img/11.png
 
     article:
         math: false
@@ -196,15 +199,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/JackyPro
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+        #- identifier: twitter
+        #  name: Twitter
+        #  url: https://twitter.com
+        #  params:
+        #      icon: brand-twitter
 
 related:
     includeNewer: true
